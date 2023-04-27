@@ -1,0 +1,59 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+html {
+  background: url('https://th.bing.com/th/id/R.35b7cf10203ae316c59e65b9f0c6d60d?rik=PEZxCxVcGh5lEw&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2017%2f12%2f11%2fnature-desktop-background_123026895_313.jpg&ehk=rvr98svQL12hNeYouWPK7AvyXVnHaRJWDvovllsJxRs%3d&risl=1&pid=ImgRaw&r=0') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+}
+
+.flexer{
+  display: flex;
+  gap: 20px;
+  /* background-color: aqua; */
+  justify-content: center;
+}
+.flex{
+  display: flex;
+  /* gap: 20px; */
+  /* background-color: aqua; */
+  /* justify-content: center; */
+}
+
+
+.textsupp{
+  font-weight: bold;
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card{
+  width: 200px;
+  /* height: 200px; */
+  margin-left: 200px;
+  padding: 30px;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.cardx{
+  /* width: 200px; */
+  /* height: 200px; */
+  /* margin-left: 200px; */
+  padding: 30px;
+  justify-content: center;
+  background-color: aliceblue;
+}
