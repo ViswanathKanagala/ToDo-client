@@ -15,7 +15,7 @@ const Public = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await fetch("http://localhost:5500/posts");
+      const response = await fetch("http://localhost:5000/posts");
       const data = await response.json();
       console.log(data)
       setPosts((prev) => {

@@ -31,7 +31,7 @@ export default function Register({ open, handleClose }) {
       return;
     }
     UserSetter(reg);
-    axios.post("http://localhost:5500/register", reg).then((res) => {
+    axios.post("http://localhost:5000/register", reg).then((res) => {
       console.log(res);
       handleClose();
     });

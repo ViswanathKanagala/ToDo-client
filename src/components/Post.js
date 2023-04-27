@@ -12,7 +12,7 @@ const Post = (props) => {
   useEffect(() => {
     const fetchFile = async () => {
       const res = await axios.get(
-        `http://localhost:5500/post/${props.data.file}`
+        `http://localhost:5000/post/${props.data.file}`
       );
       setFile(res.data);
     };
@@ -34,7 +34,7 @@ const Post = (props) => {
     setLikeCounter((prev) => {
       const newCount = like ? prev - 1 : prev + 1;
       const res = axios.get(
-        `http://localhost:5500/post/updatelike/${props.data._id}?likes=${newCount}`
+        `http://localhost:5000/post/updatelike/${props.data._id}?likes=${newCount}`
       );
       console.log(res);
       return newCount;

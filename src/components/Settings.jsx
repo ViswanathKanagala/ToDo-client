@@ -24,7 +24,7 @@ function Settings() {
       password: user.password,
       id: user._id,
     };
-    axios.post("http://localhost:5500/updateuser", obj).then((res) => {
+    axios.post("http://localhost:5000/updateuser", obj).then((res) => {
       console.log(res);
     });
     dispatch(userActions.setUser({ isAuth: true, user: obj }));

@@ -44,7 +44,7 @@ const PostModal = (props) => {
     const randomId = Math.floor(Math.random() * 100000000);
     formData.append("fileId", `file.originalname${randomId}`);
     console.log(formData.file);
-    axios.post("http://localhost:5500/post", formData).then((res) => {
+    axios.post("http://localhost:5000/post", formData).then((res) => {
       console.log(res);
     });
     props.change(false);
